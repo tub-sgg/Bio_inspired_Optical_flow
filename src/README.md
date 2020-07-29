@@ -1,21 +1,41 @@
-# Visualization of events using point clouds, event frames, voxel grids, etc.
+# *Optical flow estimation using space-time separable filters*
 
-**Event-based Robot Vision. Exercise 2**
+This is the code used to produce filter part(Section 2.2 and Section 3.1) of the  results published in  
+Tobias Brosch, Stephan Tschechne and Heiko Neumann(2015)On event-based optical flow detection.frontier in neuroscience
+But generating these result needs pre-knowledge included in  
+(Section 3 )Stephan Tschechne, Roman Sailer, and Heiko Neumann()Bio-Inspired Optic Flow from Event-Based Neuromorphic Sensor Input,
+and (Section 3.1 )Stephan Tschechne,Tobias Brosch,Roman Sailer. On event-based motion detection and integration   
 
-### Statement of the exercise
+####The repository contains the following:  
 
-See the [jupyter notebook](ex2_events_viz.ipynb). It is best visualized locally, as the images do not show up on GitLab.
+>-Python code:  in the folder:src
+> > 1.optical_flow.ipynb 
+> > > a.definition of  spatial and temporal filters  
+> > > b. visualization of filters above in 2d or 3d view   
+>>>c.implementation of equation (Eq 23) in the first paper and visualization  
+>>>d.using aggregation to calculate the velocity at each pixel for optical flow  based on separable filters and visualization(Eq.33 in first paper)  
+>>>e. .npy files are the intermediate filter  
+>
+>>2.util.py
+>>>some useful tools for loading data , the time consuming calculation, plotting tools and etc,this code
+is provided by  https://github.com/cedric-scheerlinck/jupnote_event_demo  
 
-### Solution
 
-For the solution, see the python code (2.7) in the file [ex2_events_visualization.py](ex2_events_visualization.py)
+>-Dataset:  
+>>event data is located in the folder :slider_far.in this project, only the events.txt is used  
 
-You may run it in a terminal, using:
+>-Figures:  
+>> the generated figures are saved in the folder: output_figures  
 
-	python ex2_events_visualization.py
-	
-Alternatively, you may run the code cell-by-cell using [Spyder - The Scientific Python Development Environment](https://www.spyder-ide.org/)
+>-Papers: 
+>>the related papers are saved in the folder:related_papers.It contains all the three papers which has been used in the
+this project
 
-	spyder ex2_events_visualization.py
 
-Press (Shift + Enter) to run the current code cell (delimited by characters `# %%`) and advance to the next one.
+#### Dependencies of this code
+numpy,  
+matiplotlib,  
+pandas,  
+opencv,  
+scipy
+
