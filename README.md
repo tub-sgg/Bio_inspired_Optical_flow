@@ -18,11 +18,11 @@ and (Section 3.1 )Stephan Tschechne,Tobias Brosch,Roman Sailer. On event-based m
 >>>e. .npy files are the intermediate filter  
 >
 >>2.util.py
->>>some useful tools for loading data , the time consuming calculation, plotting tools and etc,this code
-is provided by  https://github.com/cedric-scheerlinck/jupnote_event_demo  
+>>>some useful tools for loading data , the time consuming calculation, plotting tools and etc,this [code](https://github.com/cedric-scheerlinck/jupnote_event_demo)
+is provided by    
 
 
->-Dataset:  
+>-[Dataset](https://github.com/tub-sgg/Bio_inspired_Optical_flow/tree/master/slider_far):  
 >>event data is located in the folder :slider_far.in this project, only the events.txt is used  
 
 >-Figures:  
