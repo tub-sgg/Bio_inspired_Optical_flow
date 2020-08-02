@@ -1,12 +1,12 @@
 # *Bio-Inspired Computer Vision:  Optical flow estimation using space-time separable filters*
-This project is one part of the module: Bio-inspired computer vision adn was implemented by Bing Li under Prof. Dr. Marianne Maertens and Prof. Guillermo Gallego.
+This project is one part of the module: Bio-inspired computer vision and was implemented by Bing Li under Prof. Dr. Marianne Maertens and Prof. Guillermo Gallego.
 
 This is the code used to produce a filter part(Section 2.2 and Section 3.1) of the  results published in [[1]](#refer-anchor-1) .But generating these result needs pre-knowledge included in Section 3 [[2]](#refer-anchor-2) and in Section 3.1 [[3]](#refer-anchor-3)    
 
 
 ### The repository contains the following:  
 
->-Python code:  in the folder:src
+>-Python code:  folder:src
 > > 1.optical_flow.ipynb
 > > > a.definitions of  spatial and temporal filters  
 > > > b. visualization of filters above in 2d or 3d view   
